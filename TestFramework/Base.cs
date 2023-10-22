@@ -33,6 +33,7 @@ namespace TestFramework
         [SetUp]
         public void StartBrowser() 
         {
+            Console.Write("Fixed da bug");
             test = extent.CreateTest(TestContext.CurrentContext.Test.Name);
             string workingDirectory = Environment.CurrentDirectory;
             TestContext.WriteLine("THIS IS DIRECTORY" + workingDirectory);
